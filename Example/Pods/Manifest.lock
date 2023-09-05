@@ -1,0 +1,16 @@
+PODS:
+  - PasseiSizesManager (0.1.0)
+
+DEPENDENCIES:
+  - PasseiSizesManager (from `../`)
+
+EXTERNAL SOURCES:
+  PasseiSizesManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PasseiSizesManager: f6a1aa63f258109ef3ea62e706b508344522d61f
+
+PODFILE CHECKSUM: b8f2eb4500755c0fd27fed5d70173f49ba7d73b4
+
+COCOAPODS: 1.12.1

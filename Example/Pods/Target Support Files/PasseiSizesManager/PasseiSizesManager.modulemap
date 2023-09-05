@@ -1,0 +1,6 @@
+framework module PasseiSizesManager {
+  umbrella header "PasseiSizesManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

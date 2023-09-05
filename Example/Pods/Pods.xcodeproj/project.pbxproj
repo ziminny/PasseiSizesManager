@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06FAEBFDF0FE9DC37DDF5CC52F75CC04 /* Pods-PasseiSizesManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA2F4123E644E65DF29A2A36CF321CDB /* Pods-PasseiSizesManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A95F25482546098D62D7A1C286356C /* PasseiSizesManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D750AF7AEC236863B2BA89FCE64B8650 /* PasseiSizesManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36CBBC36D69099BE8F49C760EBD2198A /* Pods-PasseiSizesManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B47349C148CA2CD823D88A6FA98BCFC7 /* Pods-PasseiSizesManager_Tests-dummy.m */; };
+		5F6D3F8DB8677D939ABA93DAC60CCF5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		75B92854091117829F148757EF8ED779 /* Pods-PasseiSizesManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B88CF38EBE8DE51CA7D540E213CAB38 /* Pods-PasseiSizesManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B6C6F0336CEE27C906706449B74AD64 /* PasseiSizesManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D849A4E0A936AA4B8461C6B42F73704 /* PasseiSizesManager-dummy.m */; };
+		7C755F6080ABEB2ED2E318F7200856DD /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CA86C81323F42190BD39AC1E0D96CD /* ReplaceMe.swift */; };
+		C31413E5682E1BBAEC6C7D03B0A937D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E4CC06DB087C994EF45A11361A813C06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		FA6B2269989D0988E07BECE2B1B92901 /* Pods-PasseiSizesManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD5D4EF4BF799D7855C1CD0FA53BD1BD /* Pods-PasseiSizesManager_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F24069E114301065B6DAC86DFAD7D71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF0409A943AAF8437531FBEE668FF2F;
+			remoteInfo = PasseiSizesManager;
+		};
+		98CDC0750B03322ED778440C73863415 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB735E4EBC5505F9F9D80A988FA55EA8;
+			remoteInfo = "Pods-PasseiSizesManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22A6BA692EE8BFDAE73F5D19BA7EF2AF /* PasseiSizesManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PasseiSizesManager-Info.plist"; sourceTree = "<group>"; };
+		237A316ADF03ECE661F959743ECED3E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		29D9C09C44ADA6FF3AF26B43AA3A0CDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		32F01F55CBB909A12B5977F4731CF2BC /* PasseiSizesManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiSizesManager-prefix.pch"; sourceTree = "<group>"; };
+		3E2405FB0A55F47FEA237EAEC9B9E2E3 /* Pods-PasseiSizesManager_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PasseiSizesManager_Tests"; path = Pods_PasseiSizesManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43F9C029D0C79A13CCEC52DE2EA1F179 /* Pods-PasseiSizesManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasseiSizesManager_Example.modulemap"; sourceTree = "<group>"; };
+		542A8976A6B95A3329017528C1459CE5 /* Pods-PasseiSizesManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-PasseiSizesManager_Tests.modulemap"; sourceTree = "<group>"; };
+		5B88CF38EBE8DE51CA7D540E213CAB38 /* Pods-PasseiSizesManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasseiSizesManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5FF6FB4D8A7D52CC53F5126B408CC6B5 /* Pods-PasseiSizesManager_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-PasseiSizesManager_Example"; path = Pods_PasseiSizesManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A53541416B7D7CF233CCB24E7B3CDE8 /* Pods-PasseiSizesManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasseiSizesManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D849A4E0A936AA4B8461C6B42F73704 /* PasseiSizesManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PasseiSizesManager-dummy.m"; sourceTree = "<group>"; };
+		701338A9B1E195F3F4DA4E198E0966BC /* PasseiSizesManager */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PasseiSizesManager; path = PasseiSizesManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7B95C4497F26418CF47759877FDC8416 /* PasseiSizesManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiSizesManager.release.xcconfig; sourceTree = "<group>"; };
+		7D7AB91A3AAC2B72F715944F2A6BDA73 /* Pods-PasseiSizesManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiSizesManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		877E11E312DE671B4B0492932D6EC28F /* Pods-PasseiSizesManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiSizesManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		91FAACD8E7BBDC6FC8D647E02861ACDB /* Pods-PasseiSizesManager_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiSizesManager_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2D5947682A8010629F855C75AB5C371 /* PasseiSizesManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PasseiSizesManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB9A2F0AB6B8AB6E89C185AAC515AB38 /* Pods-PasseiSizesManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiSizesManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AD5D4EF4BF799D7855C1CD0FA53BD1BD /* Pods-PasseiSizesManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasseiSizesManager_Example-dummy.m"; sourceTree = "<group>"; };
+		B47349C148CA2CD823D88A6FA98BCFC7 /* Pods-PasseiSizesManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PasseiSizesManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		B667B8D62BB8C6BCA511AF03CF1D9EE6 /* Pods-PasseiSizesManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiSizesManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		B9800EA4DBDBCF0DAB699B90540B927C /* Pods-PasseiSizesManager_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PasseiSizesManager_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CA2F4123E644E65DF29A2A36CF321CDB /* Pods-PasseiSizesManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PasseiSizesManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		CF6805D75A0520F5C3385372BD4DB200 /* Pods-PasseiSizesManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PasseiSizesManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D493228F08F37366752C4F2561EFD97A /* PasseiSizesManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PasseiSizesManager.debug.xcconfig; sourceTree = "<group>"; };
+		D750AF7AEC236863B2BA89FCE64B8650 /* PasseiSizesManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PasseiSizesManager-umbrella.h"; sourceTree = "<group>"; };
+		D904C03D27BD13D1B001E92664EA7321 /* Pods-PasseiSizesManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PasseiSizesManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		DE277795E12F76A7F417CB3F14D640D6 /* PasseiSizesManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PasseiSizesManager.modulemap; sourceTree = "<group>"; };
+		F221E633FBCE44C03F4865CB767B0683 /* Pods-PasseiSizesManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiSizesManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F37E3C6263E9D5A9C12DD244A5EF5317 /* Pods-PasseiSizesManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PasseiSizesManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F7CA86C81323F42190BD39AC1E0D96CD /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = PasseiSizesManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48BAB748BA0A00AE12AC8669262C7412 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31413E5682E1BBAEC6C7D03B0A937D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F75B980ED91567C034225B4FF8971CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4CC06DB087C994EF45A11361A813C06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA787C7A5C4833944BA4ADCBA974CF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F6D3F8DB8677D939ABA93DAC60CCF5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D66FFA53142C1633EC5CA1B84A0FCBD /* PasseiSizesManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7CA86C81323F42190BD39AC1E0D96CD /* ReplaceMe.swift */,
+				88C4625511E8D15A0ECE0A223BA44CFF /* Pod */,
+				E7FF8D4B4674A8E614B32EEED2712612 /* Support Files */,
+			);
+			name = PasseiSizesManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		48B3BEBCDD1D232319C8F96C11996E1A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3D66FFA53142C1633EC5CA1B84A0FCBD /* PasseiSizesManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		624C3EE5FE8E3FE71F36906B0EE23F03 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80F72F2B0E4A3DCB26A673236FF6727B /* Pods-PasseiSizesManager_Example */,
+				986E8A6089A450AA82EBBBB32B106A22 /* Pods-PasseiSizesManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		80F72F2B0E4A3DCB26A673236FF6727B /* Pods-PasseiSizesManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				43F9C029D0C79A13CCEC52DE2EA1F179 /* Pods-PasseiSizesManager_Example.modulemap */,
+				6A53541416B7D7CF233CCB24E7B3CDE8 /* Pods-PasseiSizesManager_Example-acknowledgements.markdown */,
+				D904C03D27BD13D1B001E92664EA7321 /* Pods-PasseiSizesManager_Example-acknowledgements.plist */,
+				AD5D4EF4BF799D7855C1CD0FA53BD1BD /* Pods-PasseiSizesManager_Example-dummy.m */,
+				B9800EA4DBDBCF0DAB699B90540B927C /* Pods-PasseiSizesManager_Example-frameworks.sh */,
+				91FAACD8E7BBDC6FC8D647E02861ACDB /* Pods-PasseiSizesManager_Example-Info.plist */,
+				CA2F4123E644E65DF29A2A36CF321CDB /* Pods-PasseiSizesManager_Example-umbrella.h */,
+				F37E3C6263E9D5A9C12DD244A5EF5317 /* Pods-PasseiSizesManager_Example.debug.xcconfig */,
+				F221E633FBCE44C03F4865CB767B0683 /* Pods-PasseiSizesManager_Example.release.xcconfig */,
+			);
+			name = "Pods-PasseiSizesManager_Example";
+			path = "Target Support Files/Pods-PasseiSizesManager_Example";
+			sourceTree = "<group>";
+		};
+		88C4625511E8D15A0ECE0A223BA44CFF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				29D9C09C44ADA6FF3AF26B43AA3A0CDA /* LICENSE */,
+				A2D5947682A8010629F855C75AB5C371 /* PasseiSizesManager.podspec */,
+				237A316ADF03ECE661F959743ECED3E4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		986E8A6089A450AA82EBBBB32B106A22 /* Pods-PasseiSizesManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				542A8976A6B95A3329017528C1459CE5 /* Pods-PasseiSizesManager_Tests.modulemap */,
+				CF6805D75A0520F5C3385372BD4DB200 /* Pods-PasseiSizesManager_Tests-acknowledgements.markdown */,
+				877E11E312DE671B4B0492932D6EC28F /* Pods-PasseiSizesManager_Tests-acknowledgements.plist */,
+				B47349C148CA2CD823D88A6FA98BCFC7 /* Pods-PasseiSizesManager_Tests-dummy.m */,
+				B667B8D62BB8C6BCA511AF03CF1D9EE6 /* Pods-PasseiSizesManager_Tests-Info.plist */,
+				5B88CF38EBE8DE51CA7D540E213CAB38 /* Pods-PasseiSizesManager_Tests-umbrella.h */,
+				7D7AB91A3AAC2B72F715944F2A6BDA73 /* Pods-PasseiSizesManager_Tests.debug.xcconfig */,
+				AB9A2F0AB6B8AB6E89C185AAC515AB38 /* Pods-PasseiSizesManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-PasseiSizesManager_Tests";
+			path = "Target Support Files/Pods-PasseiSizesManager_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				48B3BEBCDD1D232319C8F96C11996E1A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				FB4250ACFCA27A2E69726D3909266E60 /* Products */,
+				624C3EE5FE8E3FE71F36906B0EE23F03 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7FF8D4B4674A8E614B32EEED2712612 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE277795E12F76A7F417CB3F14D640D6 /* PasseiSizesManager.modulemap */,
+				6D849A4E0A936AA4B8461C6B42F73704 /* PasseiSizesManager-dummy.m */,
+				22A6BA692EE8BFDAE73F5D19BA7EF2AF /* PasseiSizesManager-Info.plist */,
+				32F01F55CBB909A12B5977F4731CF2BC /* PasseiSizesManager-prefix.pch */,
+				D750AF7AEC236863B2BA89FCE64B8650 /* PasseiSizesManager-umbrella.h */,
+				D493228F08F37366752C4F2561EFD97A /* PasseiSizesManager.debug.xcconfig */,
+				7B95C4497F26418CF47759877FDC8416 /* PasseiSizesManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/PasseiSizesManager";
+			sourceTree = "<group>";
+		};
+		FB4250ACFCA27A2E69726D3909266E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				701338A9B1E195F3F4DA4E198E0966BC /* PasseiSizesManager */,
+				5FF6FB4D8A7D52CC53F5126B408CC6B5 /* Pods-PasseiSizesManager_Example */,
+				3E2405FB0A55F47FEA237EAEC9B9E2E3 /* Pods-PasseiSizesManager_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BB94B25582630D8154FAEF25976D0C50 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A95F25482546098D62D7A1C286356C /* PasseiSizesManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BEE29C04EC9B571A432A8C30A018DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06FAEBFDF0FE9DC37DDF5CC52F75CC04 /* Pods-PasseiSizesManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCA50AC82AAB59749D538CD4C4222957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75B92854091117829F148757EF8ED779 /* Pods-PasseiSizesManager_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2D391035EC176BAA7BDE8A3B0C1C82A2 /* Pods-PasseiSizesManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3402C17DEF8CB6DFCDE76C5E4E3BFBAF /* Build configuration list for PBXNativeTarget "Pods-PasseiSizesManager_Tests" */;
+			buildPhases = (
+				FCA50AC82AAB59749D538CD4C4222957 /* Headers */,
+				4A98B883662D9D2B0F05A755285834DD /* Sources */,
+				AA787C7A5C4833944BA4ADCBA974CF2C /* Frameworks */,
+				D33E962FF168BD62C4DD10FEB1F4124F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD6FA23672CA8EC33DAFB3C0DEA0386E /* PBXTargetDependency */,
+			);
+			name = "Pods-PasseiSizesManager_Tests";
+			productName = Pods_PasseiSizesManager_Tests;
+			productReference = 3E2405FB0A55F47FEA237EAEC9B9E2E3 /* Pods-PasseiSizesManager_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DEF0409A943AAF8437531FBEE668FF2F /* PasseiSizesManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C573FA0D2D833F2B2F0E4E1553AC8E /* Build configuration list for PBXNativeTarget "PasseiSizesManager" */;
+			buildPhases = (
+				BB94B25582630D8154FAEF25976D0C50 /* Headers */,
+				51AB7F9FBE85F8EC2A45418829E10045 /* Sources */,
+				8F75B980ED91567C034225B4FF8971CC /* Frameworks */,
+				4C0E2E953AA09FB3B841449C98785559 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasseiSizesManager;
+			productName = PasseiSizesManager;
+			productReference = 701338A9B1E195F3F4DA4E198E0966BC /* PasseiSizesManager */;
+			productType = "com.apple.product-type.framework";
+		};
+		FB735E4EBC5505F9F9D80A988FA55EA8 /* Pods-PasseiSizesManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE68117112C74BAB33DC03102DA79823 /* Build configuration list for PBXNativeTarget "Pods-PasseiSizesManager_Example" */;
+			buildPhases = (
+				D9BEE29C04EC9B571A432A8C30A018DF /* Headers */,
+				9CE3E0C5F4A3C3D5C3DAE526EA286E15 /* Sources */,
+				48BAB748BA0A00AE12AC8669262C7412 /* Frameworks */,
+				9B496465693E342C2D67E81CE5DEF266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5350EF207B7AC7321B22C2B57740D79F /* PBXTargetDependency */,
+			);
+			name = "Pods-PasseiSizesManager_Example";
+			productName = Pods_PasseiSizesManager_Example;
+			productReference = 5FF6FB4D8A7D52CC53F5126B408CC6B5 /* Pods-PasseiSizesManager_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = FB4250ACFCA27A2E69726D3909266E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF0409A943AAF8437531FBEE668FF2F /* PasseiSizesManager */,
+				FB735E4EBC5505F9F9D80A988FA55EA8 /* Pods-PasseiSizesManager_Example */,
+				2D391035EC176BAA7BDE8A3B0C1C82A2 /* Pods-PasseiSizesManager_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C0E2E953AA09FB3B841449C98785559 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B496465693E342C2D67E81CE5DEF266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E962FF168BD62C4DD10FEB1F4124F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A98B883662D9D2B0F05A755285834DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36CBBC36D69099BE8F49C760EBD2198A /* Pods-PasseiSizesManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AB7F9FBE85F8EC2A45418829E10045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6C6F0336CEE27C906706449B74AD64 /* PasseiSizesManager-dummy.m in Sources */,
+				7C755F6080ABEB2ED2E318F7200856DD /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CE3E0C5F4A3C3D5C3DAE526EA286E15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6B2269989D0988E07BECE2B1B92901 /* Pods-PasseiSizesManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5350EF207B7AC7321B22C2B57740D79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PasseiSizesManager;
+			target = DEF0409A943AAF8437531FBEE668FF2F /* PasseiSizesManager */;
+			targetProxy = 3F24069E114301065B6DAC86DFAD7D71 /* PBXContainerItemProxy */;
+		};
+		AD6FA23672CA8EC33DAFB3C0DEA0386E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-PasseiSizesManager_Example";
+			target = FB735E4EBC5505F9F9D80A988FA55EA8 /* Pods-PasseiSizesManager_Example */;
+			targetProxy = 98CDC0750B03322ED778440C73863415 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4D3E8DF36E9C30D121FD175402294DCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7AB91A3AAC2B72F715944F2A6BDA73 /* Pods-PasseiSizesManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiSizesManager_Tests/Pods-PasseiSizesManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiSizesManager_Tests/Pods-PasseiSizesManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69D03E51A268811DEC318F9FCD67FF40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B95C4497F26418CF47759877FDC8416 /* PasseiSizesManager.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiSizesManager/PasseiSizesManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiSizesManager/PasseiSizesManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasseiSizesManager/PasseiSizesManager.modulemap";
+				PRODUCT_MODULE_NAME = PasseiSizesManager;
+				PRODUCT_NAME = PasseiSizesManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8B4953C19962FF01C752790A0054F071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB9A2F0AB6B8AB6E89C185AAC515AB38 /* Pods-PasseiSizesManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiSizesManager_Tests/Pods-PasseiSizesManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiSizesManager_Tests/Pods-PasseiSizesManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B9382A4CCC827B6153785798A2018554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D493228F08F37366752C4F2561EFD97A /* PasseiSizesManager.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PasseiSizesManager/PasseiSizesManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PasseiSizesManager/PasseiSizesManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PasseiSizesManager/PasseiSizesManager.modulemap";
+				PRODUCT_MODULE_NAME = PasseiSizesManager;
+				PRODUCT_NAME = PasseiSizesManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEA4849A54F36A24D9D451A6F3AF48FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37E3C6263E9D5A9C12DD244A5EF5317 /* Pods-PasseiSizesManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiSizesManager_Example/Pods-PasseiSizesManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiSizesManager_Example/Pods-PasseiSizesManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E84D1A6C405096AED3B40F9F480B81AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F221E633FBCE44C03F4865CB767B0683 /* Pods-PasseiSizesManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-PasseiSizesManager_Example/Pods-PasseiSizesManager_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PasseiSizesManager_Example/Pods-PasseiSizesManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3402C17DEF8CB6DFCDE76C5E4E3BFBAF /* Build configuration list for PBXNativeTarget "Pods-PasseiSizesManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3E8DF36E9C30D121FD175402294DCA /* Debug */,
+				8B4953C19962FF01C752790A0054F071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C573FA0D2D833F2B2F0E4E1553AC8E /* Build configuration list for PBXNativeTarget "PasseiSizesManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9382A4CCC827B6153785798A2018554 /* Debug */,
+				69D03E51A268811DEC318F9FCD67FF40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE68117112C74BAB33DC03102DA79823 /* Build configuration list for PBXNativeTarget "Pods-PasseiSizesManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEA4849A54F36A24D9D451A6F3AF48FE /* Debug */,
+				E84D1A6C405096AED3B40F9F480B81AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
