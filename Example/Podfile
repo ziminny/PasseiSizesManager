@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'PasseiSizesManager_Example' do
+  pod 'PasseiSizesManager', :path => '../'
+
+  target 'PasseiSizesManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
