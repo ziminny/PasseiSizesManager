@@ -7,15 +7,15 @@
 
 import Foundation
 
-
+/// Classe de acesso à configuração global do aplicativo SMApplication.
 public class SMApplication {
     
-    public static var passeiOAB:SMPasseiOABGlobal.Type {
+    /// Acesso à configuração global específica do aplicativo SMPasseiOAB.
+    public static var passeiOAB: SMPasseiOABGlobal.Type {
         SMPasseiOABGlobal.self
     }
-
-    
 }
+
 
 
 

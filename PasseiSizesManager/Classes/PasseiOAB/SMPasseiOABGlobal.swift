@@ -14,9 +14,9 @@ public class SMPasseiOABGlobal {
     ///
     /// - Exemplo:
     /// ```
-    ///     sideSpaceRatio:Double = 35
+    ///     sideSpacingRatio:Double = 35
     /// ```
-    public static var sideSpaceRatio:Double = 15
+    public static var sideSpacingRatio:Double = 15
     
     /// Default =  35
     ///
@@ -30,9 +30,9 @@ public class SMPasseiOABGlobal {
     ///
     /// - Exemplo:
     /// ```
-    ///     buttonHeigtRatio:Double = 1
+    ///     buttonHeigthRatio:Double = 1
     /// ```
-    public static var buttonHeigtRatio:Double = 1
+    public static var buttonHeigthRatio:Double = 1
     
     
     /// Default = 1
